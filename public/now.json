@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "alias": "georgearnold88-bookmarks-app",
+  "name": "bookmarks-app",
+  "routes": [
+      { "handle": "filesystem" },
+      { "src": "/.*", "dest": "/index.html" }
+  ]
+}
